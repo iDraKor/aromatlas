@@ -1,0 +1,5 @@
+:root{--fond:#f6f1e7;--encre:#1d1a16;--or:#9a6b12;--trait:#d9cfbd}
+@media (prefers-color-scheme:dark){:root{--fond:#14120f;--encre:#efe8da;--or:#e0b25a;--trait:#3a342b}}
+*{box-sizing:border-box}body{margin:0;background:var(--fond);color:var(--encre);font:17px/1.6 Georgia,serif}
+main{max-width:720px;margin:0 auto;padding:40px 16px 64px}h1{font-size:30px;margin:0 0 4px}h2{font-size:20px;margin:32px 0 8px;color:var(--or)}
+.sous{opacity:.7;margin:0 0 24px}a{color:var(--or)}nav{border-top:1px solid var(--trait);margin-top:40px;padding-top:16px;font-size:15px}
